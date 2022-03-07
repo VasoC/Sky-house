@@ -3,3 +3,29 @@
   margin: 0;
   box-sizing: border-box;
 }
+.nav-div {
+  max-width: 1920px;
+  width: 100%;
+  padding: 0 240px;
+  background-color: #0020f4;
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+}
+li {
+  list-style-type: none;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+button {
+  width: 160px;
+  background-color: #ffffff;
+  border-radius: 28px;
+}
+.button-text {
+  color: #171717;
+}
