@@ -12,6 +12,8 @@
   background-color: #0020f4;
   display: flex;
   justify-content: space-between;
+  position: absolute;
+  z-index: 1;
 }
 ul {
   display: flex;
@@ -43,5 +45,30 @@ button {
 .main-content {
   max-width: 1920px;
   width: 100%;
+  padding: 0 363px;
   background-color: #ffffff;
 }
+.article-image {
+  top: 200px;
+  position: relative;
+  z-index: 10;
+}
+.article-image image {
+  max-width: 1195px;
+  width: 100%;
+}
+.article-pics {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 210px;
+}
+.article-pics image {
+  width: 219px;
+  height: 219px;
+}
+/* .information{
+    max-width: 1195px;
+    width: 100%;
+    margin-right: 200px;
+} */
+@media (max-width: 1200px)
